@@ -1,0 +1,42 @@
+body{
+  background: url('https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat;
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  padding:0;
+  margin:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+
+.key{
+  padding:20px;
+  margin:10px;
+  text-align:center;
+  border:4px solid black;
+  border-radius: 4px;
+  background: #e7eff6;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+  transition: all 0.07s; //FIND OUT WHAT 0.07s IS IN 700 THINGY FOR THE JAVASCRIPT THING K? THANKS
+}
+
+.play{
+  transform: scale(1.1);
+  border: 4px solid #A3CEF1;
+  box-shadow: 0px 0px 12px 0px rgba(163,206,241,1);
+}
+
+kbd{
+  font-size:40px;
+}
+
+span{
+  font-size:17px;
+  color: #03396c;
+  font-family: arial;
+  padding: 10px 5px;
+}
